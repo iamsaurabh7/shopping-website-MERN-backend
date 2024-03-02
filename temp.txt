@@ -1,0 +1,1 @@
+db.users.find({},{fname:1,age:1,_id:0}).skip(0).limit(3)
